@@ -1,11 +1,26 @@
 body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+  padding: 0;
+  margin: 0;
+  padding-top: 280px;
+  width: 100vw;
+  background-color: rgb(25, 33, 41);
+  font-family: Arial;
 }
 
 #form-container {
-    margin: auto;
+  width: 250px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(67, 163, 230);
+  padding: 20px 0px 20px 20px;
+  font-size: 20px;
+}
+
+.submit {
+  background-color: rgb(67, 163, 230);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  padding: 5px;
 }
