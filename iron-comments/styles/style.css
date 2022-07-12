@@ -14,13 +14,12 @@ body {
   color: rgb(255, 255, 255);
   border: 1px solid rgb(67, 163, 230);
   padding: 20px 0px 20px 20px;
-  box-sizing: border-box;
 }
 
 #form-container fieldset {
   border: none;
   margin-left: 0;
-  padding: 0px 0px 5px 0px;
+  padding: 0px 0px 10px 0px;
 }
 #form-container .text {
   width: 199px;
@@ -31,4 +30,5 @@ body {
   border-radius: 10px;
   border: none;
   padding: 5px;
+  font-size: 20px;
 }
