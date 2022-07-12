@@ -11,22 +11,31 @@
   </head>
   <body>
     <form id="form-container">
-      <label for="Name">Name:</label><br />
-      <input type="text" name="Name" id="Name" /><br />
+      <fieldset>
+        <label for="name">Name:</label><br />
+        <input type="text" name="Name" id="name" class="text" /><br />
+      </fieldset>
 
-      <label for="Email">Email:</label><br />
-      <input type="email" name="mail" id="mail" /><br />
+      <fieldset>
+        <label for="mail">Email:</label><br />
+        <input type="email" name="mail" id="mail" class="text" /><br />
+      </fieldset>
 
-      <label for="Comment">Comment:</label><br />
-      <textarea name="comments" id="" cols="21" rows="10"></textarea><br />
+      <fieldset>
+        <label for="comment">Comment:</label><br />
+        <textarea name="comments" id="comment" cols="25" rows="10"></textarea
+        ><br />
+      </fieldset>
 
-      <label for="Name"><i>Receive email updates?</i></label>
-      <input
-        type="checkbox"
-        name="updates"
-        id="updates"
-        class="button-updates"
-      /><br />
+      <fieldset>
+        <label for="updates"><i>Receive email updates?</i></label>
+        <input
+          type="checkbox"
+          name="updates"
+          id="updates"
+          class="button-updates"
+        /><br />
+      </fieldset>
 
       <label for="submit"></label>
       <button type="submit" class="submit">Submit</button>

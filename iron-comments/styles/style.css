@@ -5,6 +5,7 @@ body {
   width: 100vw;
   background-color: rgb(25, 33, 41);
   font-family: Arial;
+  font-weight: bold;
 }
 
 #form-container {
@@ -13,14 +14,21 @@ body {
   color: rgb(255, 255, 255);
   border: 1px solid rgb(67, 163, 230);
   padding: 20px 0px 20px 20px;
-  font-size: 20px;
+  box-sizing: border-box;
 }
 
+#form-container fieldset {
+  border: none;
+  margin-left: 0;
+  padding: 0px 0px 5px 0px;
+}
+#form-container .text {
+  width: 199px;
+}
 .submit {
   background-color: rgb(67, 163, 230);
   color: rgb(255, 255, 255);
   border-radius: 10px;
-  font-size: 20px;
   border: none;
   padding: 5px;
 }
